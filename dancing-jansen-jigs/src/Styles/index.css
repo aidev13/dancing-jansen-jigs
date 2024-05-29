@@ -39,8 +39,55 @@ li:hover {
    transform: translateY(4px);
    cursor: pointer;
    color: rgb(255, 2, 2);
+   animation: bounce 2s;
 }
 
 .listContainer {
-   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   /* max-width: 800px; */
+   margin: 0 auto;
+   padding: 20px;
+   
+}
+
+.imgCol {
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   width: 600px;
+}
+
+
+
+.listCol {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.stay {
+   position: fixed;
+}
+
+@keyframes bounce {
+   0% {
+       transform: translateY(0px);
+   }
+   20% {
+      transform: translateY(8px);
+   }
+   /* 40% {
+       transform: translateY(px);
+   } */
+   60% {
+       transform: translateY(4px);
+   }
+   80% {
+      transform: translateY(8px);
+   }
+   100% {
+      transform: translateY(4px);
+   }
 }

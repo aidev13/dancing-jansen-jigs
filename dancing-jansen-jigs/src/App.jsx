@@ -8,7 +8,8 @@ function App() {
    return (
       <>
          <Header />
-         <div className="container">
+         
+         <div>
             <JigList items={jigData} />
          </div>
 
