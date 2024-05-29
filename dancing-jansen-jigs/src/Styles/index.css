@@ -32,12 +32,13 @@ body {
 
 li {
    /* margin: 10px 0; */
-   transition: transform 0.3s ease; 
+   transition: transform 0.3s ease, color 0.3s ease; 
 }
 
 li:hover {
    transform: translateY(4px);
    cursor: pointer;
+   color: rgb(255, 2, 2);
 }
 
 .listContainer {

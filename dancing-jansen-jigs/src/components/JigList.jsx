@@ -3,16 +3,19 @@ import { useState } from "react"
 
 
 const JigList = ({ items }) => {
-   const [image, setImage] = useState('')
+   const [image, setImage] = useState()
 
    const displayHandle = (Image) => {
       setImage(Image)
+   
    }
 
    return (
       <>
 
-         <div>Image of {image}</div>
+         <div>
+            <img src={image} />
+         </div>
          <div className="listContainer">
 
             {

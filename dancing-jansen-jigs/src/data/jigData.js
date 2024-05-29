@@ -5,7 +5,7 @@ const jigData = [
       weight: '5oz',
       color: 'Black',
       text:"This is a short description about the jig!",
-      img: 'img1',
+      img: 'https://placehold.co/600x400?text=Hello+Jig',
       available: true
    },
    {
@@ -13,7 +13,7 @@ const jigData = [
       weight: '8oz',
       color: 'Red',
       text:"This is a short description about the jig!",
-      img: 'img2',
+      img: 'https://placehold.co/600x400?text=Hello+Jiggy',
       available: true
    },
    {
@@ -21,7 +21,7 @@ const jigData = [
       weight: '15oz',
       color: 'Green',
       text:"This is a short description about the jig!",
-      img: 'img3',
+      img: 'https://placehold.co/600x400?text=Hello+Jigger',
       available: true
    },
    {
@@ -29,9 +29,10 @@ const jigData = [
       weight: '4oz',
       color: 'Green',
       text:"This is a short description about the jig!",
-      img: 'img5',
+      img: 'https://placehold.co/600x400?text=Hello+Jig+bug',
       available: true
    },
 ]
+
 
 export default jigData;
