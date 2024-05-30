@@ -6,11 +6,6 @@ body {
    font-family: poppins;
 }
 
-.card {
-   display: flex;
-   align-items: center;
-   /* width: 300px; */
-}
 
 .container {
    display: flex;
@@ -20,7 +15,8 @@ body {
 
 .header-style {
    height: 100px;
-   background-color: antiquewhite;
+   background-color: rgb(234, 234, 234);
+   box-shadow: rgba(45, 45, 45, 0.2) 0px 10px 30px;
 }
 
 .navParent {
@@ -28,18 +24,20 @@ body {
    text-decoration: none;
    list-style: none;
    gap: 22px;
+   margin-left: 50px;
 }
 
-li {
+a {
    /* margin: 10px 0; */
    transition: transform 0.3s ease, color 0.3s ease; 
+   text-decoration: none;
+   color: rgb(149, 149, 149);
 }
 
-li:hover {
+a:hover {
    transform: translateY(4px);
    cursor: pointer;
-   color: rgb(255, 2, 2);
-   animation: bounce 2s;
+   color: rgb(0, 0, 0);
 }
 
 .listContainer {
@@ -56,7 +54,7 @@ li:hover {
    display: flex;
    justify-content: center;
    /* align-items: center; */
-   width: 600px;
+   width: 650px;
 }
 
 
@@ -69,25 +67,4 @@ li:hover {
 
 .stay {
    position: fixed;
-}
-
-@keyframes bounce {
-   0% {
-       transform: translateY(0px);
-   }
-   20% {
-      transform: translateY(8px);
-   }
-   /* 40% {
-       transform: translateY(px);
-   } */
-   60% {
-       transform: translateY(4px);
-   }
-   80% {
-      transform: translateY(8px);
-   }
-   100% {
-      transform: translateY(4px);
-   }
 }
