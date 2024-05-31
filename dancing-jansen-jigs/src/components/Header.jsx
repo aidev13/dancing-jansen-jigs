@@ -1,13 +1,10 @@
-import Nav from "./Nav"
+import NavBar from "./NavBar.jsx"
 
 const Header = () => {
-
-
-
   return (
     <div className="header-style">
       <h4>Welcome to Dancing Jansen Jigs</h4>
-      <Nav />
+      <NavBar />
     </div>
   )
 }

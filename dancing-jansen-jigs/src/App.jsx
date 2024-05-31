@@ -1,21 +1,13 @@
-import JigList from "./components/JigList"
-import jigData from './data/jigData.js'
-import Header from "./components/Header.jsx"
-import Sandbox from "./components/Sandbox.jsx"
+import { Outlet } from "react-router-dom"
+import Header from "./components/Header"
 
 function App() {
 
    return (
       <>
-         <Header />
-         
-         <div>
-            <JigList items={jigData} />
-         </div>
-         <div>
-            {/* { Outlet } */}
-         </div>
-
+      <Header />
+      <Outlet />
+        
          {/* <Sandbox /> */}
       </>
    )
