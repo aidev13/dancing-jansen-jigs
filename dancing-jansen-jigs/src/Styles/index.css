@@ -13,11 +13,13 @@ body {
 
 }
 
+
+/* 
 .header-style {
    height: 100px;
    background-color: rgb(234, 234, 234);
    box-shadow: rgba(45, 45, 45, 0.2) 0px 10px 30px;
-}
+} */
 
 .navParent {
    display: flex;
