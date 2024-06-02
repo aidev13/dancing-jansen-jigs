@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const NavBar = () => {
    return (
       <>
-         <nav className="navbar navbar-expand-lg bg-body-tertiary">
+         <nav className="navbar navbar-expand-lg bg-warning shadow">
 
             <div className="container-fluid">
 
@@ -24,19 +24,29 @@ const NavBar = () => {
 
                   <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                      <li className="nav-item">
-                        <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                        <Link className="nav-link active" aria-current="page" to="/" onClick={() => {
+                           window.scroll(0, 0);
+                        }}>Home</Link>
                      </li>
                      <li className="nav-item">
-                        <Link className="nav-link" to="about">About</Link>
+                        <Link className="nav-link" to="about" onClick={() => {
+                           window.scroll(0, 0);
+                        }}>About</Link>
                      </li>
                      <li className="nav-item">
-                        <Link className="nav-link" to="shop">Shop</Link>
+                        <Link className="nav-link" to="shop" onClick={() => {
+                           window.scroll(0, 0);
+                        }}>Shop</Link>
                      </li>
                      <li className="nav-item">
-                        <Link className="nav-link" to="contact">Contact Jansen</Link>
+                        <Link className="nav-link" to="contact" onClick={() => {
+                           window.scroll(0, 0);
+                        }}>Contact Jansen</Link>
                      </li>
                      <li className="nav-item">
-                        <Link className="nav-link" to="cart">Cart</Link>
+                        <Link className="nav-link" to="cart" onClick={() => {
+                           window.scroll(0, 0);
+                        }}>Cart</Link>
                      </li>
                   </ul>
 

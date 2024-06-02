@@ -14,13 +14,6 @@ body {
 }
 
 
-/* 
-.header-style {
-   height: 100px;
-   background-color: rgb(234, 234, 234);
-   box-shadow: rgba(45, 45, 45, 0.2) 0px 10px 30px;
-} */
-
 .navParent {
    display: flex;
    text-decoration: none;
@@ -29,18 +22,19 @@ body {
    margin-left: 50px;
 }
 
-a {
-   /* margin: 10px 0; */
+
+.nav-link {
+    margin: 10px 0; 
    transition: transform 0.3s ease, color 0.3s ease; 
    text-decoration: none;
    color: rgb(149, 149, 149);
 }
 
-a:hover {
+.nav-link:hover {
    transform: translateY(4px);
    cursor: pointer;
    color: rgb(0, 0, 0);
-}
+} 
 
 .listContainer {
    display: grid;
@@ -70,3 +64,15 @@ a:hover {
 .stay {
    position: fixed;
 }
+
+.shop-text-color {
+   color: white;
+}
+
+.footer-style {
+   height: 150px;
+   background-color: aliceblue;
+}
+
+
+ 
