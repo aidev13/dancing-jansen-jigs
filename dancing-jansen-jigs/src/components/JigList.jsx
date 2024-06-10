@@ -30,9 +30,7 @@ const JigList = ({ items }) => {
 
                            <p className="card-text">{item.text}</p>
 
-                           <button onClick={() => displayHandle(item.img)} className="btn btn-danger">Click me</button>
-
-                           <a href="#" className="btn btn-primary">Buy Now!</a>
+                           <button onClick={() => displayHandle(item.img)} className="btn btn-warning">Click me</button>
                         </div>
 
                      </div>

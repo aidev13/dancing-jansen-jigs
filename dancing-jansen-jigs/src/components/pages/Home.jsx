@@ -1,4 +1,5 @@
 import "../../Styles/home.css"
+import Reviews from "../reviews/Reviews"
 
 const Home = () => {
    return (
@@ -6,8 +7,8 @@ const Home = () => {
         <div class="card text-bg-light hero">
             <img src="/public/walleye_bg.jpg" class="card-img" alt="..." />
             <div class="card-img-overlay">
-               <h5 class="card-title">This is just a placehoder </h5>
-               <p class="card-text">I do not own the rights to the photo</p>
+               <h5 class="card-title ">This is just a placehoder </h5>
+               <p class="card-text ">I do not own the rights to the photo</p>
                <p class="card-text"><small>I will take down when needed or when told to</small></p>
             </div>
          </div>
@@ -33,11 +34,16 @@ const Home = () => {
             </div>
          </section>
 
+
          <section className="container">
             <h2>From the owner:</h2>
             <img src="" alt="" />
             <p className='shadows-into-light-regular m- mb-5 ms-5 fs-4'>"For years, I've been living my dream of crafting handmade jigs, a passion that began with a love for fishing and a dedication to quality. Each jig is meticulously handcrafted right here in the USA, designed and customized for the discerning fisherman who demands the best. Thank you for supporting my journey and sharing in the joy of exceptional, tailor-made fishing gear."</p>
          </section>
+         
+
+                     <Reviews />
+
 
          <div class="container text-center">
             <div class="row">
